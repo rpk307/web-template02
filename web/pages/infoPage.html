@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/scripts/loginAjaxFunctions.js"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>infoPage</title>
+</head>
+<body onload="checkLogin()">
+<div class = "wholePage">
+    <div class="navbar">
+        <a href="/pages/homePage.html">Home</a>
+        <a href="/pages/infoPage.html">Info</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <a href="/pages/formPage.html">Form</a>
+        <div class="dropdown" style="float: right; width:171px;" id ="loginDropdown">
+            <button class="dropbtn">Login
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" style="padding: 5px">
+                <Form onsubmit="return loadDoc()" name ="loginFrm" id="loginFrm">
+                    Username:<br>
+                    <input type="text" placeholder="Enter Username" name="username" id="username"><br>
+                    Password:<br>
+                    <input type="password" placeholder="Enter Password" name="password" id="password"><br>
+                    <input type = submit><br>
+                </Form>
+                <a href="/pages/newAccountPage.html">Create Account</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class = "page">
+        <h1>
+            Page Title
+        </h1>
+        <p>
+            Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It's not a story the Jedi would tell you.
+            It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to
+            influence the midichlorians to create life… He had such a knowledge of the dark side that he could even keep the
+            ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be
+            unnatural. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course,
+            he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep.
+            Ironic. He could save others from death, but not himself.
+        </p>
+        <hr/>
+        <h2>Sub-Heading</h2>
+        <div class = "imgCont right clearfix" >
+            <img src="/pics/tragedy.jpg" style="width:100%">
+            Caption
+        </div>
+        <p>
+            Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It's not a story the Jedi would tell you.
+            It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to
+            influence the midichlorians to create life… He had such a knowledge of the dark side that he could even keep the
+            ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be
+            unnatural. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course,
+            he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep.
+            Ironic. He could save others from death, but not himself.
+        </p>
+        <p>
+            Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It's not a story the Jedi would tell you.
+            It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to
+            influence the midichlorians to create life… He had such a knowledge of the dark side that he could even keep the
+            ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be
+            unnatural. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course,
+            he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep.
+            Ironic. He could save others from death, but not himself.
+        </p>
+        <div>
+
+        </div>
+    </div>
+    <footer class = "references">
+        <div>
+            <table class = footer>
+                <tr>
+                    <th colspan="2">
+                        <h3>
+                            References
+                        </h3>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Reference 1</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Reference 2</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+</div>
+<footer class="author">
+    <div>
+        Html template - Author Rohan Khosla
+    </div>
+</footer>
+</body>
+</html>

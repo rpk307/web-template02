@@ -1,0 +1,202 @@
+
+html, body{
+    font-family: Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+div.wholePage{
+    min-height: calc(100vh - 40px);
+}
+
+div.page{
+     max-width: 750px;
+     margin: auto;
+ }
+
+
+/* ----------------------------------------------Header Stuff---------------------------------------------------------*/
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #6b8795;
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #536572;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6b8795;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #9fc7d6;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*-----------------------------------------Footer Stuff---------------------------------------------------------------*/
+
+footer.author{
+    background-color: #323d47;
+    color: white;
+    padding: 10px;
+    height: 20px;
+}
+
+footer.author div{
+    max-width: 750px;
+    margin: auto;
+}
+
+/*----------------------------------------Home Page Stuff-------------------------------------------------------------*/
+
+div.homeTitle{
+    width: 100%;
+    height: 600px;
+    padding-top: 10%;;
+    box-sizing: border-box;
+    padding-bottom: 0;
+    border: 0;
+    position: relative;
+}
+
+div.homeTitle h1{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
+div.content{
+    position: relative;
+    z-index: 2;
+}
+
+div.backgroundImage {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/pics/backgroundSample.png") no-repeat;
+    background-size: cover;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 100%;
+}
+
+div.homeSummary{
+    width: 100%;
+    min-height: 300px;
+    padding-top: 10%;
+    box-sizing: border-box;
+    background-color: #9dc8d6;
+}
+
+div.homeSummarySub{
+    min-height: 250px;
+    margin: 10%;
+    position: absolute;
+}
+
+div.centred{
+    max-width: 750px;
+    margin: auto;
+}
+
+/*-----------------------------------------Info Page Body-------------------------------------------------------------*/
+
+
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+div.imgCont{
+    max-width: 250px;
+    padding: 5px;
+    border: 1px solid #cacaca;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*----------------------------------------Info Page Footer------------------------------------------------------------*/
+
+footer.references {
+    background-color: #eff9f9;
+}
+
+footer.references div{
+    max-width: 750px;
+    margin: auto;
+}
+
+table.footer{
+    width: 100%;
+}
+
+table.footer th{
+    text-align: left;
+}
+
+/*-----------------------------------------Form Page Body-------------------------------------------------------------*/
+
+.redBorder{
+    border-color: #FF0000;
+}
+
+fieldset.hidden{
+    border: none;
+}

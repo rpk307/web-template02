@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/scripts/loginAjaxFunctions.js"></script>
+    <meta charset="UTF-8">
+    <title>homePage</title>
+</head>
+<body  onload="checkLogin()">
+<div class = "wholePage">
+    <div class="navbar">
+        <a href="/pages/homePage.html">Home</a>
+        <a href="/pages/infoPage.html">Info</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <a href="/pages/formPage.html">Form</a>
+        <div class="dropdown" style="float: right; width:171px;" id ="loginDropdown">
+            <button class="dropbtn">Login
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" style="padding: 5px">
+                <Form onsubmit="return loadDoc()" name ="loginFrm" id="loginFrm">
+                    Username:<br>
+                    <input type="text" placeholder="Enter Username" name="username" id="username"><br>
+                    Password:<br>
+                    <input type="password" placeholder="Enter Password" name="password" id="password"><br>
+                    <input type = submit><br>
+                </Form>
+                <a href="/pages/newAccountPage.html">Create Account</a>
+            </div>
+        </div>
+    </div>
+
+    <div class = "homeTitle">
+        <div class = "content">
+            <h1>
+                HomePage
+            </h1>
+        </div>
+        <div class = "backgroundImage"></div>
+    </div>
+    <div class = "homeSummary">
+        <div class = "centred">
+        </div>
+    </div>
+</div>
+
+
+<footer class="author">
+    <div>
+    Html template - Author Rohan Khosla
+    </div>
+</footer>
+</body>
+</html>
